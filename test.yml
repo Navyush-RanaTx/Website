@@ -7,5 +7,5 @@ pool:
 # Define the pipeline steps
 steps:
   # Step 1: Print Hello World
-  - script: echo "Hello World from Azure DevOps Pipeline!"
+  - script: ecco "Hello World from Azure DevOps Pipeline!"
     displayName: "Print Hello World"
