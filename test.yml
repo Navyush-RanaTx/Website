@@ -2,7 +2,7 @@ trigger: none
 
 # Use the latest Ubuntu image as the build agent
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'ubuntu-lates'
 
 # Define the pipeline steps
 steps:
