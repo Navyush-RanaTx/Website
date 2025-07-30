@@ -1,0 +1,11 @@
+trigger: none
+
+# Use the latest Ubuntu image as the build agent
+pool:
+  vmImage: 'ubuntu-latest'
+
+# Define the pipeline steps
+steps:
+  # Step 1: Print Hello World
+  - script: echo "Hello World from Azure DevOps Pipeline!"
+    displayName: "Print Hello World"
